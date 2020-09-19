@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+@font-face{
+	font-family: "fonte";
+	src: url('../fonts/Anton-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Minhafonte2";
+	src: url('../fonts/Raleway-Light.ttf');
+}
+
+@font-face{
+	font-family: "Minhafonte3";
+	src: url('../fonts/Oxygen-Light.ttf');
+}
+
+.container-banner{
+	width: 100%;
+	height: 251px;
+	background-image:url('../images/header.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+}
+
+.container-banner img{
+	position: relative;
+	text-align: center;
+	bottom: 30px;
+	width: 300px;
+	height: 300px;
+	padding: 19px;
+	text-align: center;
+	background-size: 100% 100%;
+
+}
+
+.aba{
+    width: 100%;
+    height: 70px;
+    background-color: #B8860B;
+}
+
+.aba2{
+    width: 100%;
+    height: 3px;
+    background-color: #DAA520;
+}
+
+.borda{
+	width: 730px;
+	height: 640px;
+	margin-left: 230px;
+	margin-top: 40px;
+	border: 2px solid #D3D3D3;
+	border-radius: 5px;
+	background-color: white;
+	background-image: url('../images/1.png');
+}
+
+.borda2{
+	width: 340px;
+	margin-top: 40px;
+	margin-right: 236px;
+	height: 207px;
+	float: right;
+	border: 2px solid #D3D3D3;
+  	border-radius: 5px;
+	background-color: white;
+}
+
+.borda h2{
+	font-family: "fonte";
+}
+
+.borda img{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.borda p{
+	font-family: "Minhafonte3";
+	display: inline-block;
+	padding: 30px;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.borda h3{
+	font-family: "Minhafonte3";
+    position: relative;
+    top: -35px;
+    left: 150px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.um{
+	width: 100%;
+	height: 360px;
+}
